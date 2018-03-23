@@ -1,0 +1,28 @@
+.ejym_middle p{
+	text-indent:0;
+	}
+.nian {
+	color:#5093e3;
+	font-size:24px;
+	font-weight:bold;
+	display:inline-block;
+	width:84px;
+	}
+@media screen and ( max-width:1300px){
+.ejym_middle{
+	height:310px;
+	}
+.nian {
+	font-size:22px;
+	width:68px;
+	}
+	}
+@media screen and ( min-width:1300px){
+.nian {
+	font-size:24px;
+	width:84px;
+	}
+.ejym_middle{
+	height:375px;
+	}
+	}

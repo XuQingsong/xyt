@@ -1,0 +1,149 @@
+*{margin: 0;padding: 0;list-style:none;border:none;}
+body {
+	font-family: "microsoft yahei" !important;
+	color:#505050;
+	font-family:Microsoft Yahei;
+	}
+/*提示信息框的样式*/
+.tip{
+	border:1px solid #ccc;
+	}
+.tip h4{
+	border-bottom:1px solid #ccc;
+	}
+.state{
+	border:1px solid #ccc;
+	}
+#now{
+	color:#5093e3;
+	font-weight:bold;
+	}
+/*上方为物流状态的样式代码*/
+h2 {
+	display: block;
+	-webkit-margin-before: 0;
+	-webkit-margin-after: 0;
+	-webkit-margin-start: 0px;
+	-webkit-margin-end: 0px;
+	font-weight: normal;
+}
+
+:focus {
+	outline: none;
+}
+
+h3 {
+	font-weight: normal;
+	text-align: center;
+	text-transform: uppercase;
+	color: #5093e3;
+}
+
+#search-box {
+	position: relative;
+	margin: 0 auto;
+	display: inline;
+}
+.wrapper {
+	margin: 0 auto;
+}
+
+@media screen and ( max-width:1300px){
+body {
+	font-size:12px;
+	height:30px;
+	line-height:30px;
+	}
+/*提示信息框的样式*/
+.tip{
+	width:728px;
+	line-height:42px;
+	font-size:14px;
+	text-indent:9px;
+	}
+#demo .state{
+	width:728px;
+	padding:10px 0;
+	}
+.date{
+	width:108px;
+	text-indent:9px;
+	}
+.time{
+	width:60px;
+	}
+/*上方为物流状态的样式代码*/
+h2 {
+	font-size: 1.3em;
+	margin: 15px 0px 20px;
+}
+
+h3 {
+	font-size: 32px;
+	margin:20px 0 12px;
+	letter-spacing:1px;
+}
+
+h3 span{
+	font-size:18px;
+	margin-left:8px;
+	}
+#search-box {
+	width: 400px;
+}
+.wrapper {
+	width: 730px;
+	margin: 0 auto;
+	margin-top:24px;
+}
+}
+@media screen and ( min-width:1300px){
+body {
+	font-size:14px;
+	height:30px;
+	line-height:30px;
+	}
+/*提示信息框的样式*/
+.tip{
+	width:728px;
+	line-height:42px;
+	font-size:16px;
+	text-indent:9px;
+	}
+#demo .state{
+	width:728px;
+	padding:10px 0;
+	}
+.date{
+	width:108px;
+	text-indent:9px;
+	}
+.time{
+	width:60px;
+	}
+/*上方为物流状态的样式代码*/
+h2 {
+	font-size: 1.3em;
+	margin: 15px 0px 20px;
+}
+
+h3 {
+	font-size: 40px;
+	margin: 0px 0px 20px;
+	letter-spacing:1px;
+}
+
+h3 span{
+	font-size:18px;
+	margin-left:8px;
+	}
+#search-box {
+	width: 400px;
+}
+.wrapper {
+	width: 730px;
+	margin: 0 auto;
+	margin-top:40px;
+}
+
+}

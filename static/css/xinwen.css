@@ -1,0 +1,166 @@
+.middle_left{
+	float:left;
+	border:1px solid #ccc;
+	}
+.middle_right{
+	float:right;
+	}
+.time img{
+	vertical-align:middle;
+	}
+.xiangqing a{
+	display:block;
+	color:#5093e3;
+	border:1px solid #5093e3;
+	text-align:center;
+}
+.xiangqing a{
+	transition-duration: .5s;
+	-ms-transition-duration: .5s;
+	-moz-transition-duration: .5s;
+	-webkit-transition-duration: .5s;
+}
+.xiangqing a:hover{
+	background-color:#5093e3;
+	color:#fff;
+	}
+.yema {
+    font-size:80%; 
+	background-color: #fff; 
+	color:#000; 
+	text-align: center;
+}
+.yema a {
+	border: #808080 1px solid; 
+	background-position: 50% bottom;
+	text-decoration: none;
+	color:#000;
+}
+.yema a:hover, .yema a:active{
+	border: #5093e3 1px solid; 
+	color: #ffffff; 
+	background-color: #5093e3;
+}
+
+.yema span.current {
+	border: #ffffff 1px solid; 
+	font-weight: bold; 
+	color: #ffffff; 
+	background-color: #5093e3;
+}
+.yema span.disabled {
+	border: #808080 1px solid; 
+	color: #000; 
+}
+@media screen and ( max-width:1300px){
+.middle_left img{
+	height:180px;
+	}
+.middle_right{
+	width:670px;
+	}
+.biaoti{
+	height:36px;
+	font-size:18px;
+	}
+.neirong{
+	line-height:30px;
+	}
+.time{
+	height:40px;
+	line-height:40px;
+	}
+.time img{
+	height:16px;
+	margin-right:8px;
+	}
+.xiangqing{
+	margin-top:10px;
+	}
+.xiangqing a{
+	width:80px;
+	height:30px;
+	line-height:30px;
+	border-radius:4px;
+}
+.yema {
+	padding:10px 3px; 
+    font-size:80%; 
+	margin:0 3px;
+	margin-top:60px;
+}
+.yema a {
+	padding:5px 10px;
+	margin:3px;
+}
+.yema span.current {
+	padding:5px 10px;
+	margin:3px;
+}
+.yema span.disabled {
+	padding:5px 10px;
+	margin:3px;
+}
+	}
+@media screen and ( min-width:1300px){
+ .middle_left{
+	width:300px;
+	height:200px;
+	}
+.middle_left img{
+	width:300px;
+	height:200px;
+	}
+.middle_right{
+	width:860px;
+	}
+.biaoti{
+	height:48px;
+	font-size:24px;
+	}
+.neirong{
+	line-height:30px;
+	}
+.time{
+	height:42px;
+	line-height:42px;
+	font-size:14px;
+	}
+.time img{
+	height:16px;
+	margin-right:8px;
+	}
+.xiangqing{
+	margin-top:10px;
+	}
+.xiangqing a{
+	width:80px;
+	height:32px;
+	line-height:32px;
+	border-radius:4px;
+}
+.yema {
+	padding:10px 3px; 
+    font-size:80%; 
+	margin:0 3px;
+	margin-top:60px;
+}
+.yema a {
+	padding:5px 10px;
+	margin:3px;
+	display:inline-block;
+}
+.yema span.current {
+	padding:5px 10px;
+	margin:3px;
+}
+.yema span.disabled {
+	padding:5px 10px;
+	margin:3px;
+}
+.yema .shenglue{
+	display:inline-block;
+	
+	
+}
+	}

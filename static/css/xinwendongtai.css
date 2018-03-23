@@ -1,0 +1,10 @@
+@media screen and ( max-width:1300px){
+		.ejym_middle{
+			height:232px;
+			}
+		}
+@media screen and ( min-width:1300px){
+	 	.ejym_middle{
+			height:248px;
+			}
+		}

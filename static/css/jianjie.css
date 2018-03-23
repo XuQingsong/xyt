@@ -1,0 +1,57 @@
+.fenlei span{
+	float:right;
+	}
+.qywh .left{
+	text-align:right;
+	display:inline-block;
+	font-weight:bold;
+	}
+.ejym_middle p{
+	text-indent:0;
+	}
+@media screen and ( max-width:1300px){
+.ejym_middle{
+	height:1070px;
+	}
+.neirong{
+	margin-top:18px;
+	}
+.qywh .fenlei{
+	padding-top:24px;
+	}
+.qywh .left{
+	width:85px;
+	}
+.qywh .right{
+	margin-left:24px;
+	
+	}
+.tianchong{
+	margin-left:109px;
+	}
+	}
+@media screen and ( min-width:1300px){
+.ejym_middle{
+	height:1270px;
+	}
+.neirong{
+	margin-top:18px;
+	}
+.gsjj p,.qywh p{
+	line-height:36px;
+	letter-spacing:1px;
+	}
+.qywh .fenlei{
+	padding-top:24px;
+	}
+.qywh .left{
+	width:85px;
+	}
+.qywh .right{
+	margin-left:24px;
+	
+	}
+.tianchong{
+	margin-left:109px;
+	}
+	}

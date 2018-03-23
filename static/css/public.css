@@ -1,0 +1,215 @@
+body,dd,ul{
+	margin:0 auto; 
+	padding:0; 
+	list-style-type:none; 
+	width:100%; 
+	color:#303030; 
+	font-family:Microsoft Yahei;  
+	}
+a{
+	text-decoration:none;
+	color:#fafafa;
+	}
+img{
+	border:none;
+	}
+
+
+/*锟斤拷锟斤拷页锟芥共锟斤拷锟斤拷式*/
+.bjt{
+	 width:100%;
+	 margin:0 auto;
+	 position:relative;
+	}
+.bjt_wz{
+	margin:0 auto;
+	position:relative;
+	}
+.wz_01{
+	position:absolute;
+	left:0;
+	color:#fff;
+	}
+.wz_02{
+	position:absolute;
+	left:0;
+	color:#fff;
+	}
+.wz_02 span锛�.wz_02 span a{
+	color:#eaeaea;
+	}	
+.wz_01_right{
+	color:#eaeaea;
+	}
+.ejym{
+	margin:0 auto;
+	}
+.ejym_top{
+	width:100%;
+	}
+.ejym_tab{
+	float:right;
+	}
+.ejym_tab a{
+	display:inline-block;
+	text-align:center;
+	color:#303030;
+	}
+.ejym_tab .dqwz,.ejym_tab a:hover{
+	color:#5093e3;
+	}
+.fenlei{
+	width:100%;
+	border-bottom:1px dotted #5093e3;
+	color:#5093e3;
+	}
+.fenlei span{
+	float:right;
+	}
+.ztdx{
+	text-align:center;
+	font-weight:bold;
+	}
+.ztcx{
+	font-weight:bold;
+	}
+.btn{
+	text-align:center;
+	border:1px solid #5093e3;
+	color:#5093e3;
+	display:inline-block;
+	}
+.btn:hover{
+	color:#fff;
+	background-color:#5093e3;
+	}
+@media screen and ( max-width:1300px){
+	body{
+		font-size:12px;
+		}
+	.bjt{
+		top:80px;
+		height:240px;
+		}
+	.bjt_wz{
+		width:980px;
+		}
+	.wz_01{
+		top:70px;
+		}
+	.wz_02{
+		top:140px;
+		font-size:16px;
+		}
+	.wz_01_left{
+		font-size:22px;
+		letter-spacing:1px;
+		}
+	.wz_01_right{
+		font-size:18px;
+		letter-spacing:1px;
+		}
+	.ejym{
+		width:980px;
+		margin-top:15px;
+		margin-bottom:48px;
+		}
+	.ejym_top{
+		height:64px;
+		line-height:64px;
+		margin-top:76px;
+		}
+	.ejym_tab a{
+		padding:0 18px;
+		font-size:14px;
+		}
+	.ejym_middle{
+		margin:10px 0;
+		}
+	.fenlei{
+		height:42px;
+		font-size:20px;
+		letter-spacing:1px;
+		}
+	.ejym_middle p{
+		line-height:32px;
+		padding:8px 0;
+		text-indent:28px;
+		}
+	.width{
+		margin-left:28px;
+		}
+	.ztdx{
+		font-size:14px;
+		}
+	.btn{
+		width:112px;
+		height:36px;
+		line-height:36px;
+		}
+	}
+@media screen and ( min-width:1300px){
+	.bjt{
+		top:80px;
+		height:300px;
+		}
+	.bjt_wz{
+		width:1200px;
+		}
+	.wz_01{
+		top:90px;
+		}
+	.wz_02{
+		top:180px;
+		font-size:16px;
+		}
+	.wz_01_left{
+		font-size:26px;
+		letter-spacing:2px;
+		}
+	.wz_01_right{
+		font-size:20px;
+		letter-spacing:2px;
+		}
+	.ejym{
+		width:1200px;
+		margin-top:48px;
+		margin-bottom:60px;
+		}
+	.ejym_top{
+		width:1200px;
+		margin:0 auto;
+		height:72px;
+		line-height:72px;
+		margin-top:120px;
+		
+		}
+	.ejym_tab a{
+		padding:0 24px;
+		font-size:16px;
+		}
+	.ejym_middle{
+		margin:40px 0;
+		}
+	.fenlei{
+		height:48px;
+		font-size:24px;
+		letter-spacing:2px;
+		}
+	.ejym_middle p{
+		line-height:36px;
+		padding:12px 0;
+		text-indent:28px;
+		}
+	.width{
+		margin-left:28px;
+		}
+	.ztdx{
+		font-size:16px;
+		}
+	.btn{
+		width:124px;
+		height:42px;
+		line-height:42px;
+		}
+	}

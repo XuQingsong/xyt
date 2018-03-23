@@ -1,0 +1,116 @@
+@CHARSET "UTF-8";
+
+/********************************
+A jQuery plugin for search hints
+
+Author: Lorenzo Cioni 
+https://github.com/lorecioni
+********************************/
+.autocomplete-container {
+	position: relative;
+	z-index:1;
+	/*width: 283px;
+	height: 32px;
+	margin: 0 auto;*/
+}
+
+.autocomplete-input{
+	font-family: inherit;
+	float: left;
+	border: 2px solid #5093e3;
+	letter-spacing:2px;
+	margin: 0;
+}
+/*查询按钮的样式*/
+.autocomplete-button {
+	font-family: inherit;
+	border: none;
+	background-color:#5093e3;/*按钮的颜色设置*/
+	color: white;
+	text-align:center;
+	float: left;
+	cursor: pointer;
+	border-radius: 0px 3px 3px 0px;
+	transition: all 0.2s ease-out 0s;
+
+}
+.proposal-box {
+	position: absolute;
+	height: auto;
+	border-left: 1px solid rgba(0, 0, 0, 0.11);
+	border-right: 1px solid rgba(0, 0, 0, 0.11);
+	left: 0px;
+}
+
+.proposal-list {
+	list-style: none;
+	box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.44);
+	-webkit-margin-before: 0em;
+	-webkit-margin-after: 0em;
+	-webkit-margin-start: 0px;
+	-webkit-margin-end: 0px;
+	-webkit-padding-start: 0px;
+}
+/*下拉框的样式*/
+.proposal-list li {
+	text-align: left;
+	font-family: inherit;
+	border-bottom: 1px solid rgba(0, 0, 0, 0.16);
+	background-color: rgba(255, 255, 255, 1);
+	cursor: pointer;
+}
+/*下拉框内文字被选中的样式，设置背景色、字体的颜色*/
+li.proposal.selected {
+	background-color:#f0f0f0;
+}
+@media screen and ( max-width:1300px){
+.autocomplete-container {
+	/*width: 283px;
+	height: 32px;
+	margin: 0 auto;*/
+}
+
+.autocomplete-input {
+	/*padding:9px;*/
+	border-radius: 3px;
+	font-size: 1em;
+	text-indent:9px;
+}
+/*查询按钮的样式*/
+.autocomplete-button {
+	width:120px;
+	padding-bottom:2px;
+	font-size:24px;
+}
+/*下拉框的样式*/
+.proposal-list li {
+	padding: 5px;
+	height: 24px;
+	line-height: 24px;
+}
+}
+@media screen and ( min-width:1300px){
+.autocomplete-container {
+	/*width: 283px;
+	height: 32px;
+	margin: 0 auto;*/
+}
+
+.autocomplete-input{
+	border-radius: 3px;
+	font-size: 1em;
+	text-indent:9px;
+}
+/*查询按钮的样式*/
+.autocomplete-button {
+	width:120px;
+	padding-bottom:2px;
+	font-size:24px;
+}
+/*下拉框的样式*/
+.proposal-list li {
+	padding: 5px;
+	height: 30px;
+	line-height: 30px;
+}	
+}

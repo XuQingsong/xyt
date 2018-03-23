@@ -1,0 +1,138 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+ul, li {
+	list-style: none;
+}
+
+body {
+	position: relative;
+	font-family: Microsoft Yahei;
+}
+
+.zhuce, #onlineBusinessReset {
+	z-index: 10;
+	position: fixed;
+	top: 100px; 
+	width : 440px;
+	min-height: 300px;
+	left: 50%;
+	margin-left: -220px;
+	margin-top: 10%;
+	border-radius: 10px;
+	padding-bottom: 12px;
+	background-color: #FFF;
+	display: none;
+	width: 440px;
+}
+
+@media screen and ( max-width:1599px) {
+	#zhuce, #reset {
+		margin-top: 4%;
+	}
+}
+
+.zhuce h5, .zhuce h4 {
+	text-align: center;
+	color: #333;
+	font-weight: normal;
+}
+
+.zhuce h5 {
+	letter-spacing: 1px;
+	font-size: 18px;
+	margin: 10px 0 30px 0;
+}
+
+.zhuce h4 {
+	font-size: 16px;
+	height: 42px;
+	line-height: 42px;
+}
+
+.zhuce ul {
+	width: 358px;
+	margin: 0 auto;
+}
+
+.zhuce ul li {
+	height: 54px;
+}
+
+.zhuce li input {
+	margin: 0 auto;
+	width: 358px;
+	height: 42px;
+	line-height: 42px;
+	text-indent: 12px;
+	letter-spacing: 1px;
+	font-family: Microsoft Yahei;
+	border: 0;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	outline: 0;
+}
+
+#confirm input {
+	width: 238px;
+}
+
+#confirm button {
+	height: 44px;
+	line-height: 44px;
+	width: 108px;
+	font-family: Microsoft Yahei;
+	margin-left: 10px;
+	letter-spacing: 4px;
+	background-color: #FFF;
+	border: 0;
+	border: 1px solid #ccc;
+	border-radius: 2px;
+	vertical-align: middle;
+	cursor: pointer;
+	outline: 0;
+}
+
+.zhuce .submit {
+	font-size: 18px;
+	height: 40px;
+	background-color: #5093e3;
+	border: 0;
+	color: #fff;
+}
+
+.zhuce .check {
+	width: 18px;
+	height: 18px;
+	vertical-align: middle;
+}
+
+.zhuce li span {
+	font-size: 14px;
+	margin-left: 10px;
+}
+
+.zhuce li a {
+	text-decoration: none;
+	color: #333;
+}
+
+.zhuce h4 span {
+	cursor: pointer;
+	color: #5093e3;
+}
+
+.zhuce #onlineBusiness_regist_tip, .zhuce #onlineBusiness_reset_tip {
+	border: 0;
+	color: #F00;
+	font-size: 14px;
+	line-height: 30px;
+	width: 340px;
+	margin: 0 auto;
+}
+
+.zhuce a {
+	text-decoration: none;
+}

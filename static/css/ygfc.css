@@ -1,0 +1,35 @@
+.timu,.shijian,.tupian,.tupian img{
+	text-align:center;
+	}
+@media screen and ( max-width:1300px){
+.timu{
+	font-size:18px;
+	line-height:42px;
+	}
+.shijian{
+	line-height:42px;
+	}
+.tupian img{
+	width:880px;
+	margin-top:30px;
+	}
+.ejym_middle .ygfc_p{
+	text-align:center;
+		}
+	}
+@media screen and ( min-width:1300px){
+.timu{
+	font-size:20px;
+	line-height:48px;
+	}
+.timu,.shijian{
+	line-height:48px;
+	}
+.tupian img{
+	width:1100px;
+	margin-top:40px;
+	}
+.ejym_middle .ygfc_p{
+	text-align:center;
+		}
+	}

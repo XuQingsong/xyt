@@ -1,0 +1,44 @@
+.lxfs{
+	float:left;
+	border:1ps solid red;
+	}
+.biaoti{
+	color:#5093e3;
+	}
+@media screen and ( max-width:1300px){
+.ejym_middle{
+	height:188px;
+	}
+.lxfs{
+	width:490px;
+	}
+.biaoti{
+	font-size:18px;
+	line-height:42px;
+	}
+.xinxi{
+	line-height:36px;
+	}
+}
+@media screen and ( min-width:1300px){
+.ejym_middle{
+	height:225px;
+	}
+.lxfs{
+	width:600px;
+	}
+.biaoti{
+	font-size:18px;
+	line-height:48px;
+	}
+.xinxi{
+	line-height:42px;
+	}
+}
+	
+	
+	
+	
+	
+	
+	

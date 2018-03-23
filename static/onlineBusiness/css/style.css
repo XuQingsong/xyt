@@ -1,0 +1,169 @@
+
+body{
+	font-family:Microsoft Yahei;
+	font-size:14px;
+	}
+.black_overlay{
+	display: none;
+	position: absolute;
+	top: 0%;
+	left: 0%;
+	width: 100%;
+	height: 100%;
+	background-color:#5093e3;
+	z-index: 10;
+	-moz-opacity: 0.4;
+	opacity: 0.4;
+	filter: alpha(opacity=40);
+	}
+.white_content{
+	z-index: 10;
+	position: fixed;
+	top: 100px; 
+	width : 440px;
+	min-height: 300px;
+	left: 50%;
+	margin-left: -220px;
+	margin-top: 10%;
+	border-radius: 10px;
+	padding-bottom: 12px;
+	background-color: #FFF;
+	display: none;
+	width: 440px;
+	}
+h5{
+	font-weight:normal;
+	text-align:center;
+	}
+.welcome{
+	font-size:18px;
+	margin:10px 0 30px 0;
+	}
+.help{
+	font-size:15px;
+	margin-bottom:20px;
+	}
+.help a{
+	text-decoration:none;
+	color:#5093e3;
+	}
+.close{
+	text-align:right;
+	}
+.close img{
+	width:18px;
+	cursor:pointer;
+	margin-right:10px;
+	margin:10px;
+	}
+.login{
+	width:360px;
+	margin:0 auto;
+	}
+.error{
+	margin-bottom:10px;
+	color:red;
+	font-size:14px;
+	letter-spacing:1px;
+	}
+ul,li{
+	list-style:none;
+	margin:0;
+	padding:0;
+	}
+.login li{
+	display:block;
+	height:42px;
+	width: 358px;
+	border:1px solid #ccc;
+	border-radius:4px;
+	margin-bottom:12px;
+	}
+.login #yanzh{
+	border:none;	
+}
+#yanzh input{
+	text-indent:12px;
+	width:220px;
+	font-family:Microsoft Yahei;
+}
+#yanzhma{
+	width:120px;	
+	display:inline-block;
+	margin-left:18px;
+	background-color:#fff;
+	letter-spacing:12px;
+	font-weight:bold;
+	font-size:16px;
+	color:#5093e3;
+	text-align:center;
+}
+#yanzh input,#yanzhma{
+	border-radius:4px;
+	border:1px solid #ccc;
+	height:40px;
+}
+b{
+	height:42px;
+	display:block;
+	float:left;
+	}
+b img{
+	height:26px;
+	margin:8px 10px 0 10px;
+	}
+.user,.password{
+	float:right;
+	height:40px;
+	line-height:40px;
+	font-size:14px;
+	letter-spacing:1px;
+	width:312px;
+	border:none;
+	outline:0;	
+}
+.checkBox{
+	padding-top:4px;
+	}
+.check{
+	width:16px;
+	height:16px;
+	float:left;
+	margin-top:8px;
+	margin-right:2px;
+	}
+.remember{
+	float:left;
+	}
+.checkBox a{
+	color:#555;
+	}
+.forget{
+	float:right;
+	}
+.submit{
+	background-color:#5093e3;
+	height:42px;
+	border-radius:4px;
+	width:360px;
+	border:0;
+	margin:10px auto 15px;
+	text-align:center;
+	font-size:18px;
+	color:#fff;
+	font-family:Microsoft Yahei;
+	cursor:pointer;
+	}
+.red{
+	color: red;
+}
+.underline{
+	text-decoration: underline;
+}
+.vertical-center{
+	display: inline-block;
+	vertical-align: middle;
+}
+.font-size-025x{
+	font-size: 1.25em;
+}
